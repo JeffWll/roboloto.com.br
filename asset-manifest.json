@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5cbde66.css",
-    "main.js": "/static/js/main.702cb5c7.js",
-    "static/media/diamond.png": "/static/media/diamond.f270266d019b72362119.png",
-    "static/media/slide1img.jpg": "/static/media/slide1img.1e5c8e74f7637a8a4ee7.jpg",
-    "static/media/slide2img.jpg": "/static/media/slide2img.80f1365add1b41ad8d7a.jpg",
-    "static/media/Cartela1.jpg": "/static/media/Cartela1.84c35754be4667630e78.jpg",
-    "static/media/logo.jpg": "/static/media/logo.ee9b5466f406ef0bb107.jpg",
-    "static/media/logo2.jpg": "/static/media/logo2.f7206042824d5f4d5911.jpg",
-    "static/media/slide3.svg": "/static/media/slide3.687cf68f9acaba426c3babc46748bbed.svg",
-    "static/media/icon_bell.svg": "/static/media/icon_bell.e670942512cd66b479b4a9784facacaa.svg",
-    "index.html": "/index.html",
-    "static/media/icon_lock.svg": "/static/media/icon_lock.5a5734258e14d49af6d3e6bf2c30001a.svg",
-    "static/media/icon_list.svg": "/static/media/icon_list.30b475e15bc209818eee417cfed10ba9.svg",
-    "static/media/icon_trevo.svg": "/static/media/icon_trevo.e2f9b6dfa9d53cd20078e905bc6036f8.svg",
-    "static/media/icon_tube.svg": "/static/media/icon_tube.fc25cdc927b08a6fbde5f9e4942ede12.svg",
-    "static/media/icon_mail.svg": "/static/media/icon_mail.058bb188a64a9c1b4494d2ea422c064d.svg",
-    "static/media/icon_user.svg": "/static/media/icon_user.0f4f0a1f9ac6febe79e49673d6aab993.svg",
-    "static/media/icon_home.svg": "/static/media/icon_home.4ede6bf3534c8b8f08748cfa8f7f7dd3.svg",
-    "main.c5cbde66.css.map": "/static/css/main.c5cbde66.css.map",
-    "main.702cb5c7.js.map": "/static/js/main.702cb5c7.js.map"
+    "main.css": "/src/App.js/static/css/main.c5cbde66.css",
+    "main.js": "/src/App.js/static/js/main.8de3aa25.js",
+    "static/media/diamond.png": "/src/App.js/static/media/diamond.f270266d019b72362119.png",
+    "static/media/slide1img.jpg": "/src/App.js/static/media/slide1img.1e5c8e74f7637a8a4ee7.jpg",
+    "static/media/slide2img.jpg": "/src/App.js/static/media/slide2img.80f1365add1b41ad8d7a.jpg",
+    "static/media/Cartela1.jpg": "/src/App.js/static/media/Cartela1.84c35754be4667630e78.jpg",
+    "static/media/logo.jpg": "/src/App.js/static/media/logo.ee9b5466f406ef0bb107.jpg",
+    "static/media/logo2.jpg": "/src/App.js/static/media/logo2.f7206042824d5f4d5911.jpg",
+    "static/media/slide3.svg": "/src/App.js/static/media/slide3.687cf68f9acaba426c3babc46748bbed.svg",
+    "static/media/icon_bell.svg": "/src/App.js/static/media/icon_bell.e670942512cd66b479b4a9784facacaa.svg",
+    "index.html": "/src/App.js/index.html",
+    "static/media/icon_lock.svg": "/src/App.js/static/media/icon_lock.5a5734258e14d49af6d3e6bf2c30001a.svg",
+    "static/media/icon_list.svg": "/src/App.js/static/media/icon_list.30b475e15bc209818eee417cfed10ba9.svg",
+    "static/media/icon_trevo.svg": "/src/App.js/static/media/icon_trevo.e2f9b6dfa9d53cd20078e905bc6036f8.svg",
+    "static/media/icon_tube.svg": "/src/App.js/static/media/icon_tube.fc25cdc927b08a6fbde5f9e4942ede12.svg",
+    "static/media/icon_mail.svg": "/src/App.js/static/media/icon_mail.058bb188a64a9c1b4494d2ea422c064d.svg",
+    "static/media/icon_user.svg": "/src/App.js/static/media/icon_user.0f4f0a1f9ac6febe79e49673d6aab993.svg",
+    "static/media/icon_home.svg": "/src/App.js/static/media/icon_home.4ede6bf3534c8b8f08748cfa8f7f7dd3.svg",
+    "main.c5cbde66.css.map": "/src/App.js/static/css/main.c5cbde66.css.map",
+    "main.8de3aa25.js.map": "/src/App.js/static/js/main.8de3aa25.js.map"
   },
   "entrypoints": [
     "static/css/main.c5cbde66.css",
-    "static/js/main.702cb5c7.js"
+    "static/js/main.8de3aa25.js"
   ]
 }
