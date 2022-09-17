@@ -1,0 +1,114 @@
+.corpo_login{
+  width:35% !important;
+}
+
+.btn_login{
+  width:100%;
+  background-color:#6f42c1 !important;
+  border-color:#6f42c1 !important;
+  border-radius:0px !important;
+}
+
+.btn_cad{
+  width:100%;
+  background-color:#27a844 !important;
+  border-color:#27a844 !important;
+  border-radius:0px !important;
+  }
+
+  .div_input{
+    display:flex;
+    border:solid 0.5px #c0c0c0; 
+    border-radius:5px;
+    padding-left:2%;
+    padding-right:2%;
+    margin-bottom:20px;
+  }
+
+  .input_form{
+    border-color:rgba(255, 0, 0, 0) !important;
+    box-shadow: 0 0 0 0 !important;
+    border: 0 none !important;
+    outline: 0 !important;
+  }
+
+  .img_logo{
+  width:100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVIDADE  */
+
+
+@media (max-width:319px) {
+
+}
+@media (min-width:320px) and (max-width: 360px){
+  .corpo_login{
+    width:85% !important;
+  }
+}
+@media (min-width:361px) and (max-width: 375px){
+  .corpo_login{
+    width:85% !important;
+  }
+	
+}
+@media (min-width:376px) and (max-width: 414px){
+  .corpo_login{
+    width:85% !important;
+  }
+	
+}
+@media (min-width:415px) and (max-width: 533px){
+  .corpo_login{
+    width:85% !important;
+  }
+	
+}
+@media (min-width: 534px) and (max-width: 575px){
+  .corpo_login{
+    width:85% !important;
+  }
+	
+}
+@media (min-width: 576px) and (max-width:744px){
+  .corpo_login{
+    width:85% !important;
+  }
+	
+}
+@media (min-width: 745px) and (max-width: 767px){
+  .corpo_login{
+    width:85% !important;
+  }
+	
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .corpo_login{
+    width:85% !important;
+  }
+	
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+@media (min-width: 1200px) and (max-width:1359px){
+	
+}
+@media (min-width: 1366px) and (max-width:2599px){
+	
+}
+@media (min-width: 2600px) and (max-width:8000px){
+	
+}
