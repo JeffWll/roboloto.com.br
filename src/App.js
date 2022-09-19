@@ -23,8 +23,8 @@ function App() {
         </ul>
       </nav> */}
         <Routes>
-          <Route path="/" element={<Login/>} />
-          <Route path="/Dashboard" element={<Dashboard/>} />
+          <Route path="/roboloto.com.br" element={<Login/>} />
+          <Route path="/roboloto.com.br/Dashboard" element={<Dashboard/>} />
         </Routes>
     </BrowserRouter>
     </>
