@@ -14,18 +14,19 @@ function App() {
     <>
      
       <BrowserRouter>
-      {/* <nav>
+       <nav>
         <ul>
           <li>
             <Link to="/Login">Login</Link>
             <Link to="/Dashboard">Dashboard</Link>
           </li>
         </ul>
-      </nav> */}
-        <Routes>
+      </nav>
+        {/*<Routes>
+          <Route path="/" element={<Login/>} />
           <Route path="/Login" element={<Login/>} />
           <Route path="/Dashboard" element={<Dashboard/>} />
-        </Routes>
+        </Routes>*/}
     </BrowserRouter>
     </>
     
