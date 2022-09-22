@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Logo2 from '../Assets/logo2.jpg';
+import Logo2 from '../Assets/logo.png';
 import Home from '../Assets/icon_home.svg';
 import User from '../Assets/icon_user.svg';
 import Youtube from '../Assets/icon_tube.svg';
@@ -31,17 +31,17 @@ const Navbar = () => {
           Side Menu
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Item Menu</a>
+          <a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Nova funcionalidade - Em breve</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Item Menu</a>
+					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Nova funcionalidade - Em breve</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Item Menu</a>
+					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Nova funcionalidade - Em breve</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Item Menu</a>
+					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Nova funcionalidade - Em breve</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Item Menu</a>
+					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Nova funcionalidade - Em breve</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Item Menu</a>
+					<a class="dropdown-item" href="#"><img src={Trevo} alt="" /> Nova funcionalidade - Em breve</a>
         </div>
 						</div>
 			    </div>

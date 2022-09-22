@@ -8,11 +8,11 @@ const Sidebar = () => {
       <div className="corpo_side_bar">
         <ul>
           <h5 className="mb-4">MENU</h5>
-          <a href=""> <li> <img src={Trevo} alt="" /> Item Menu </li> </a>
-          <a href=""> <li> <img src={Trevo} alt="" /> Item Menu</li> </a>
-          <a href=""> <li> <img src={Trevo} alt="" /> Item Menu</li> </a>
-          <a href=""> <li> <img src={Trevo} alt="" /> Item Menu</li> </a>
-          <a href=""> <li> <img src={Trevo} alt="" /> Item Menu</li> </a>
+          <a href=""> <li> <img src={Trevo} alt="" /> Nova funcionalidade - Em breve </li> </a>
+          <a href=""> <li> <img src={Trevo} alt="" /> Nova funcionalidade - Em breve</li> </a>
+          <a href=""> <li> <img src={Trevo} alt="" /> Nova funcionalidade - Em breve</li> </a>
+          <a href=""> <li> <img src={Trevo} alt="" /> Nova funcionalidade - Em breve</li> </a>
+          <a href=""> <li> <img src={Trevo} alt="" /> Nova funcionalidade - Em breve</li> </a>
         </ul>
       </div>
     </>

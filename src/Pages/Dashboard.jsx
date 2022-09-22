@@ -7,7 +7,7 @@ import ImgDiamond from '../Assets/diamond.png';
 import Img from '../Assets/Cartela1.jpg';
 import Slide1 from '../Assets/slide1img.jpg';
 import Slide2 from '../Assets/slide2img.jpg';
-import Slide3 from '../Assets/slide3.svg';
+import Slide3 from '../Assets/slide2img.jpg';
 import './Dashboard.css';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
