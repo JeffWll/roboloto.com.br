@@ -82,11 +82,11 @@ const Login = () => {
         <div className="col-lg-12">
           <form onSubmit={handleSubmit}>
             <div class="form-group mb-3" className="div_input">
-              <input className="form-control input_form" type="text" placeholder="Email" onClick={handleEmailChange}/>
+              <input className="form-control input_form" type="text" placeholder="Email" onChange={handleEmailChange}/>
               <img src={Mail} alt="" />
             </div>
             <div class="form-group mb-3" className="div_input">
-              <input className="form-control input_form" type="text" placeholder="Senha" onClick={handlePswChange}/>
+              <input className="form-control input_form" type="text" placeholder="Senha" onChange={handlePswChange}/>
               <img src={Lock} alt="" />
             </div>
             <input type="submit" value="Logar" />

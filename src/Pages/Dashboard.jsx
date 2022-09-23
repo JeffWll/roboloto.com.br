@@ -65,26 +65,20 @@ const Dashboard = () => {
        <div className="row mt-3">
          <div className="col-lg-3">
           <div className="quadro_btn text-center">
-            <h4>Escolha 1</h4>
-            <button className="btn btn-success btn_acesso_quadro">Acessar</button>
+            <h4>Erre 4</h4>
+            <button className="btn btn-success btn_acesso_quadro">Em breve</button>
           </div>
          </div>
          <div className="col-lg-3">
          <div className="quadro_btn text-center">
-         <h4>Escolha 2</h4>
-            <button className="btn btn-success btn_acesso_quadro">Acessar</button>
+         <h4>Erre 5</h4>
+            <button className="btn btn-success btn_acesso_quadro">Em breve</button>
           </div>
          </div>
          <div className="col-lg-3">
          <div className="quadro_btn text-center">
-         <h4>Escolha 3</h4>
-            <button className="btn btn-success btn_acesso_quadro">Acessar</button>
-          </div>
-         </div>
-         <div className="col-lg-3">
-         <div className="quadro_btn text-center">
-         <h4>Escolha 4</h4>
-            <button className="btn btn-success btn_acesso_quadro">Acessar</button>
+         <h4>Erre 7</h4>
+            <button className="btn btn-success btn_acesso_quadro">Em breve</button>
           </div>
          </div>
        </div>
@@ -92,28 +86,23 @@ const Dashboard = () => {
        <div className="row linha_2_cards">
          <div className="col-lg-3">
           <div className="quadro_btn text-center">
-            <h4>Escolha 5</h4>
-            <button className="btn btn-success btn_acesso_quadro">Acessar</button>
+            <h4>Bolões</h4>
+            <button className="btn btn-success btn_acesso_quadro">Em breve</button>
           </div>
          </div>
          <div className="col-lg-3">
          <div className="quadro_btn text-center">
-         <h4>Escolha 6</h4>
-            <button className="btn btn-success btn_acesso_quadro">Acessar</button>
+         <h4>Erre 9</h4>
+            <button className="btn btn-success btn_acesso_quadro">Em breve</button>
           </div>
          </div>
          <div className="col-lg-3">
          <div className="quadro_btn text-center">
-         <h4>Escolha 7</h4>
-            <button className="btn btn-success btn_acesso_quadro">Acessar</button>
+         <h4>3 X 3</h4>
+            <button className="btn btn-success btn_acesso_quadro">Em breve</button>
           </div>
          </div>
-         <div className="col-lg-3">
-         <div className="quadro_btn text-center">
-         <h4>Escolha 8</h4>
-            <button className="btn btn-success btn_acesso_quadro">Acessar</button>
-          </div>
-         </div>
+
        </div>
      </div>
 
@@ -164,7 +153,6 @@ const Dashboard = () => {
               
             </div>
           </div>
-          <Link to={"./Dashboard"} class="btn btn-primary btn_login">ERRE 4</Link>
         </div>
         <div className="col-lg-6 col_table_dash">
           <div className="box_table">
