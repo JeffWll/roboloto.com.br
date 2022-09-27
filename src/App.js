@@ -8,6 +8,8 @@ import {
 import './App.css';
 import Dashboard from './Pages/Dashboard';
 import Login from './Pages/Login';
+import MakeGame from './Pages/MakeGame';
+import PageResult from "./Pages/PageResult";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/" element={<Login/>} />
           <Route path="/Login" element={<Login/>} />
           <Route path="/Dashboard" element={<Dashboard/>} />
+          <Route path="/MakeGame" element={<MakeGame/>} />
+          <Route path="/PageResult" element={<PageResult/>} />
         </Routes>
     </BrowserRouter>
     </>

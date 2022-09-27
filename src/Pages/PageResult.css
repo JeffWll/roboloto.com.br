@@ -1,0 +1,112 @@
+.div_wrap_Make{
+  padding:20px;
+}
+
+.div_fundo_wrap{
+  background-color:#fff;
+  padding:10px;
+}
+
+.col_help{
+text-align:right;
+}
+
+.link_help{
+  color:#0074CC !important;
+}
+
+.div_wrap_icons{
+  display:flex;
+  justify-content: right;
+}
+
+.div_save{
+  background-color:red;
+  padding:3px 8px;
+  border-radius:3px;
+  margin-right:5px;
+}
+
+.div_doc{
+  background-color:green;
+  padding:3px 11px;
+  border-radius:3px;
+}
+
+.ball_nR{
+  padding:8px 5px 2px 5px;
+  width:4%;
+  margin-right:10px;
+  display:flex;
+  justify-content:center;
+  border-radius:30px;
+  background-color:red;
+}
+
+.n_ballR{
+  color:#fff;
+  font-size:25px;
+}
+
+.div_wrap_result{
+  background-color:#fff !important;
+  border:solid 5px #7245C6;
+  padding:20px;
+}
+
+.linha_bolas{
+  display:flex;
+  justify-content:space-around;
+  margin-bottom:5px;
+}
+
+.ball_nRR_Color{
+  padding:8px 5px 2px 5px;
+  width:15%;
+  margin-right:10px;
+  display:flex;
+  justify-content:center;
+  border-radius:30px;
+  background-color:#7245C6;
+}
+
+.n_ballRR_Color{
+  color:#fff;
+  font-size:25px;
+}
+
+.ball_nRR_ColorWR{
+  padding:8px 5px 2px 5px;
+  width:15%;
+  margin-right:10px;
+  display:flex;
+  justify-content:center;
+  border-radius:30px;
+  background-color:#fff;
+  border:solid .5px red;
+}
+
+.n_ballRR_ColorWR{
+  color:#7245C6;
+  font-size:25px;
+}
+.ball_nRR_ColorRX{
+  padding:8px 5px 2px 5px;
+  width:15%;
+  margin-right:10px;
+  display:flex;
+  justify-content:center;
+  border-radius:30px;
+  background-color:#fff;
+  border:solid .5px #7245C6;
+}
+
+.n_ballRR_ColorRX{
+  color:#7245C6;
+  font-size:25px;
+}
+
+.tt_cartela{
+  text-align:center;
+  margin-bottom:10px;
+}

@@ -9,6 +9,7 @@ import Slide1 from '../Assets/slide1img.jpg';
 import Slide2 from '../Assets/slide2img.jpg';
 import Slide3 from '../Assets/slide2img.jpg';
 import './Dashboard.css';
+import { useNavigate } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,6 +19,11 @@ import 'swiper/css';
 import { Autoplay } from "swiper";
 
 const Dashboard = () => {
+
+  const history = useNavigate();
+  const RouteMakeGame = () =>{ 
+    history("/MakeGame");}
+
   return (
     <>
      <Navbar/>
@@ -64,9 +70,9 @@ const Dashboard = () => {
        </div>
        <div className="row mt-3">
          <div className="col-lg-3">
-          <div className="quadro_btn text-center">
-            <h4>Erre 4</h4>
-            <button className="btn btn-success btn_acesso_quadro">Em breve</button>
+          <div className="quadro_btn text-right" style={{backgroundImage: "url(/Assets/erre4.jpg)" }}>
+            {/*<h4>Erre 4</h4>*/}
+            <button className="btn btn-success btn_acesso_quadro" onClick={RouteMakeGame}>Gerar Jogos</button>
           </div>
          </div>
          <div className="col-lg-3">

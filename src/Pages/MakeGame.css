@@ -1,0 +1,113 @@
+.div_wrap_Make{
+  padding:20px;
+}
+
+.div_fundo_wrap{
+  background-color:#fff;
+  padding:10px;
+}
+
+.col_help{
+text-align:right;
+}
+
+.link_help{
+  color:#0074CC !important;
+}
+
+.col_ball_n{
+  display:flex;
+  justify-content:space-around;
+}
+
+
+.ball_n{
+  padding:8px 5px 2px 5px;
+  width:10%;
+  margin-right:10px;
+  display:flex;
+  justify-content:center;
+  border-radius:30px;
+  background-color:#7245C6;
+}
+
+.n_ball{
+  color:#fff;
+  font-size:15px;
+}
+
+.col_ball_n2{
+  display:flex;
+}
+
+.ball_n2w{
+  width:4%;
+  display:flex;
+  justify-content:center;
+  border-radius:6px;
+  background-color:#fff;
+  padding-top:8px;
+  border:solid .1px #000;
+}
+
+.ball_n2l{
+  width:4%;
+  display:flex;
+  justify-content:center;
+  border-radius:6px;
+  background-color:#F24F02;
+  padding-top:8px;
+}
+
+.ball_n2B{
+  width:4%;
+  display:flex;
+  justify-content:center;
+  border-radius:6px;
+  background-color:#3E9DF5;
+  padding-top:8px;
+}
+
+.n_ball2{
+  color:#fff;
+  font-size:15px;
+}
+
+.n_ball2w{
+  color:#000;
+  font-size:15px;
+  
+}
+
+.div_wrap_cartel{
+  margin-top:30px;
+  padding:18px;
+  background-color:#F6FBF6;
+  margin-bottom:50px;
+}
+
+.div_wrap_bolas{
+  display:flex;
+  justify-content:center;
+}
+
+.div_bola1,.div_bola2,.div_bola3,.div_bola4,.div_bola5,.div_bola6,.div_bola7,.div_bola8,.div_bola9,.div_bola10,.div_bola11,.div_bola12,.div_bola13{
+  background-color:#7245C6;
+  padding:12px;
+  border-radius:50px;
+  color:#fff;
+  font-size:25px;
+  font-weight:bold;
+  cursor: pointer;
+  margin-right:5px;
+}
+
+.div_pass{
+  text-align:center;
+  width:15%;
+  padding:10px;
+  background-color:#7245C6;
+  color:#fff;
+  font-weight:bold;
+  border-radius:5px;
+}
