@@ -31,10 +31,10 @@ const Login = () => {
 
   const history = useNavigate();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    //e.preventDefault();
     checkUser();
-    console.log(checkUser());
+    //console.log(checkUser());
   }
 
   const routeChange = () =>{ 
@@ -87,10 +87,10 @@ const Login = () => {
               <img src={Mail} alt="" />
             </div>
             <div class="form-group mb-3" className="div_input">
-              <input className="form-control input_form" type="text" placeholder="Senha" onChange={handlePswChange}/>
+              <input className="form-control input_form" type="password" placeholder="Senha" onChange={handlePswChange}/>
               <img src={Lock} alt="" />
             </div>
-            <input type="submit" value="Logar" />
+            <button type="submit" class="btn btn-primary btn_cad">Logar</button>
               {/*<Link type="submit" to={"./Dashboard"} class="btn btn-primary btn_login">Login</Link>*/}
           </form>
         </div>
@@ -103,7 +103,7 @@ const Login = () => {
             <a href="" style={{fontWeight:"bold",fontSize:15}}>[Primeiro acesso]</a>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary btn_cad">Quero me cadastrar</button>
+          {/*<button type="submit" class="btn btn-primary btn_cad">Quero me cadastrar</button>*/}
         </div>
       </div>
     </div>
