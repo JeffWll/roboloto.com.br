@@ -148,45 +148,36 @@ const createProject = () => {
                     <div className="div_wrap_result">
                       <h5 className="tt_cartela">Aposta 1</h5>
                       <div className="linha_bolas">
-                      {/*<div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">01</h2>
-                        </div>*/}
                         <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[1]}>
                           <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[1]}>01</h2>
+                        </div>                        
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[2]}>
+                        <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[2]}>02</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">02</h2>
-                        </div>
-                        {/*<div className={'wrapper searchDiv ' + TipoSelecao.DIVbckgrdColor}>
-                          <h2 className={'wrapper searchDiv ' + TipoSelecao.H2bckgrdColor}>01</h2>
-                        </div>
-                        <div className={'wrapper searchDiv ' + TipoSelecao.DIVbckgrdColor}>
-                        <h2 className={'wrapper searchDiv ' + TipoSelecao.H2bckgrdColor}>02</h2>
-                        </div>*/}
 
 
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">03</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[3]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[3]}>03</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">04</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[4]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[4]}>04</h2>
                         </div>
-                        <div className="ball_nRR_ColorWR">
-                          <h2 className="n_ballRR_ColorWR">05</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>05</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">08</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[8]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[8]}>08</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">09</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[9]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[9]}>09</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">10</h2>
@@ -199,11 +190,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -222,25 +213,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">20</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[20]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[20]}>20</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -252,25 +243,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">01</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">02</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[2]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[2]}>02</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">03</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[3]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[3]}>03</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">04</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[4]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[4]}>04</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">05</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">08</h2>
@@ -278,8 +269,8 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">09</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">10</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[10]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[10]}>10</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
@@ -289,11 +280,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -306,8 +297,8 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">17</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">18</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[18]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[18]}>18</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
@@ -317,20 +308,20 @@ const createProject = () => {
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -356,17 +347,17 @@ const createProject = () => {
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">08</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>08</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">09</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>09</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">10</h2>
@@ -379,11 +370,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -402,25 +393,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">20</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>20</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -435,31 +426,31 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">01</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">02</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[2]}>02</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">03</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[3]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[3]}>03</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">04</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[4]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[4]}>04</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">05</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">08</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>08</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">09</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>09</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">10</h2>
@@ -472,11 +463,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -495,25 +486,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">20</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>20</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -525,25 +516,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">01</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">02</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[2]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[2]}>02</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">03</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[3]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[3]}>03</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">04</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[4]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[4]}>04</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">05</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">08</h2>
@@ -551,8 +542,8 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">09</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">10</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[10]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[10]}>10</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
@@ -562,11 +553,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -579,8 +570,8 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">17</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">18</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[18]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[18]}>18</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
@@ -590,20 +581,20 @@ const createProject = () => {
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -629,17 +620,17 @@ const createProject = () => {
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">08</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>08</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">09</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>09</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">10</h2>
@@ -652,11 +643,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -675,25 +666,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">20</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>20</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -708,31 +699,31 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">01</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">02</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[2]}>02</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">03</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[3]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[3]}>03</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">04</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[4]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[4]}>04</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">05</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">08</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>08</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">09</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>09</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">10</h2>
@@ -745,11 +736,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -768,25 +759,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">20</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>20</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -798,25 +789,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">01</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">02</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[2]}>02</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">03</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[3]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[3]}>03</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">04</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[4]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[4]}>04</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">05</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">08</h2>
@@ -824,8 +815,8 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">09</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">10</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[10]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[10]}>10</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
@@ -835,11 +826,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -852,8 +843,8 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">17</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">18</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[18]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[18]}>18</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
@@ -863,20 +854,20 @@ const createProject = () => {
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -902,17 +893,17 @@ const createProject = () => {
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">08</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>08</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">09</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>09</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">10</h2>
@@ -925,11 +916,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -948,25 +939,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">20</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>20</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -981,31 +972,31 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">01</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">02</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[2]}>02</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">03</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[3]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[3]}>03</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">04</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[4]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[4]}>04</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">05</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">08</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>08</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">09</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>09</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">10</h2>
@@ -1018,11 +1009,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -1041,25 +1032,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">20</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>20</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -1071,25 +1062,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">01</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">02</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[2]}>02</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">03</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[3]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[3]}>03</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">04</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[4]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[4]}>04</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">05</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">08</h2>
@@ -1097,8 +1088,8 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">09</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">10</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[10]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[10]}>10</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
@@ -1108,11 +1099,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -1125,8 +1116,8 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">17</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">18</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[18]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[18]}>18</h2>
                         </div>
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
@@ -1136,20 +1127,20 @@ const createProject = () => {
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
@@ -1175,17 +1166,17 @@ const createProject = () => {
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">06</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">07</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">08</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>08</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">09</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>09</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">10</h2>
@@ -1198,11 +1189,11 @@ const createProject = () => {
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">12</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">13</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">14</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
                         </div>
                         <div className="ball_nRR_ColorRX">
                           <h2 className="n_ballRR_ColorRX">15</h2>
@@ -1221,25 +1212,25 @@ const createProject = () => {
                         <div className="ball_nRR_ColorWR">
                           <h2 className="n_ballRR_ColorWR">19</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">20</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>20</h2>
                         </div>
                       </div>
                       <div className="linha_bolas">
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">21</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">22</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">23</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">24</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
                         </div>
-                        <div className="ball_nRR_Color">
-                          <h2 className="n_ballRR_Color">25</h2>
+                        <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
+                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
                         </div>
                       </div>
                     </div>
