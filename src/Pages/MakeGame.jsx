@@ -125,7 +125,7 @@ const MakeGame = () => {
             <div className="row">
               <div className="col-lg-12">
                 <h3>Resultado da LotoFácil</h3>
-                <p>Último concurso <b>2616</b> de 17/09/2022 </p>
+                {/*<p>Último concurso <b>2616</b> de 17/09/2022 </p> */}
               </div>
               <div className="col-lg-12">
                 <div className="row">
@@ -224,7 +224,7 @@ const MakeGame = () => {
             </div>
             <div className="row">
               <div className="col-lg-12 col_ball_n2">
-                <div className="ball_n2l">
+                {/*<div className="ball_n2l">
                   <h2 className="n_ball2">25</h2>
                 </div>
                 <div className="ball_n2l">
@@ -301,7 +301,8 @@ const MakeGame = () => {
                 </div>
                 <div className="ball_n2B">
                   <h2 className="n_ball2">19</h2>
-                </div>
+  </div>*/}
+  <p>Em Breve </p>
               </div>
             </div>
             <div className="row">
