@@ -91,8 +91,8 @@ text-align:right;
   justify-content:center;
 }
 
-.div_bola1,.div_bola2,.div_bola3,.div_bola4,.div_bola5,.div_bola6,.div_bola7,.div_bola8,.div_bola9,.div_bola10,.div_bola11,.div_bola12,.div_bola13{
-  background-color:#7245C6;
+.div_bola1,.div_bola2,.div_bola3,.div_bola4,.div_bola5,.div_bola6,.div_bola7,.div_bola8,.div_bola9,.div_bola10,.div_bola11,.div_bola12,.div_bola13, .div_bola15, .div_bola17, .div_bola19, .div_bola21, .div_bola23, .div_bola25{
+  background-color:blue;
   padding:12px;
   border-radius:50px;
   color:#fff;

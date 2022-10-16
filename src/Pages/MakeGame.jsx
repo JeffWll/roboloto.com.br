@@ -5,105 +5,180 @@ import Navbar from '../Components/Navbar';
 import Quest from '../Assets/quest.png';
 import './MakeGame.css';
 
-
+export const numSelecionados = [];
 
 const MakeGame = () => {
 
+
   
  const mudaCor1 = (a) =>{
-   a = 1;
-    if (a === 1) {
-      console.log(a);
-    }
-   document.querySelector(".div_bola1").style.backgroundColor = "red";
+   console.log(1);
+   if(document.querySelector(".div_bola1").style.backgroundColor == "red"){
+      document.querySelector(".div_bola1").style.backgroundColor = "blue";
+      numSelecionados.splice(numSelecionados.indexOf(1), 1); // remove o valor do vetor
+   }else{
+    numSelecionados.push(1);
+    document.querySelector(".div_bola1").style.backgroundColor = "red";
+   }
+   console.log(numSelecionados);
  }
-  const mudaCor2 = (a) =>{
-    a = 3;
-    if (a === 3) {
-      console.log(a);
-    }
-    document.querySelector(".div_bola2").style.backgroundColor = "red";
-  }
   const mudaCor3 = (a) =>{
-    a = 5;
-    if (a === 5) {
-      console.log(a);
+    console.log(3);
+    if(document.querySelector(".div_bola3").style.backgroundColor == "red"){
+       document.querySelector(".div_bola3").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(3), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(3);
+     document.querySelector(".div_bola3").style.backgroundColor = "red";
     }
-    document.querySelector(".div_bola3").style.backgroundColor = "red";
-  }
-  const mudaCor4 = (a) =>{
-    a = 7;
-    if (a === 7) {
-      console.log(a);
-    }
-    document.querySelector(".div_bola4").style.backgroundColor = "red";
+    console.log(numSelecionados);
   }
   const mudaCor5 = (a) =>{
-    a = 9;
-    if (a === 9) {
-      console.log(a);
+    console.log(5);
+    if(document.querySelector(".div_bola5").style.backgroundColor == "red"){
+       document.querySelector(".div_bola5").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(5), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(5);
+     document.querySelector(".div_bola5").style.backgroundColor = "red";
     }
-    document.querySelector(".div_bola5").style.backgroundColor = "red";
-  }
-  const mudaCor6 = (a) =>{
-    a = 11;
-    if (a === 11) {
-      console.log(a);
-    }
-    document.querySelector(".div_bola6").style.backgroundColor = "red";
+    console.log(numSelecionados);
   }
   const mudaCor7 = (a) =>{
-    a = 13;
-    if (a === 13) {
-      console.log(a);
+    console.log(7);
+    if(document.querySelector(".div_bola7").style.backgroundColor == "red"){
+       document.querySelector(".div_bola7").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(7), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(7);
+     document.querySelector(".div_bola7").style.backgroundColor = "red";
     }
-    document.querySelector(".div_bola7").style.backgroundColor = "red";
-  }
-  const mudaCor8 = (a) =>{
-    a = 15;
-    if (a === 15) {
-      console.log(a);
-    }
-    document.querySelector(".div_bola8").style.backgroundColor = "red";
+    console.log(numSelecionados);
   }
   const mudaCor9 = (a) =>{
-    a = 17;
-    if (a === 17) {
-      console.log(a);
+    console.log(9);
+    if(document.querySelector(".div_bola9").style.backgroundColor == "red"){
+       document.querySelector(".div_bola9").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(9), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(9);
+     document.querySelector(".div_bola9").style.backgroundColor = "red";
     }
-    document.querySelector(".div_bola9").style.backgroundColor = "red";
-  }
-  const mudaCor10 = (a) =>{
-    a = 19;
-    if (a === 19) {
-      console.log(a);
-    }
-    document.querySelector(".div_bola10").style.backgroundColor = "red";
+    console.log(numSelecionados);
   }
   const mudaCor11 = (a) =>{
-    a = 21;
-    if (a === 21) {
-      console.log(a);
+    console.log(11);
+    if(document.querySelector(".div_bola11").style.backgroundColor == "red"){
+       document.querySelector(".div_bola11").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(11), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(11);
+     document.querySelector(".div_bola11").style.backgroundColor = "red";
     }
-    document.querySelector(".div_bola11").style.backgroundColor = "red";
-  }
-  const mudaCor12 = (a) =>{
-    a = 23;
-    if (a === 23) {
-      console.log(a);
-    }
-    document.querySelector(".div_bola12").style.backgroundColor = "red";
+    console.log(numSelecionados);
   }
   const mudaCor13 = (a) =>{
-    a = 25;
-    if (a === 25) {
-      console.log(a);
+    console.log(13);
+    if(document.querySelector(".div_bola13").style.backgroundColor == "red"){
+       document.querySelector(".div_bola13").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(13), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(13);
+     document.querySelector(".div_bola13").style.backgroundColor = "red";
     }
-    document.querySelector(".div_bola13").style.backgroundColor = "red";
+    console.log(numSelecionados);
+  }
+  const mudaCor15 = (a) =>{
+    console.log(15);
+    if(document.querySelector(".div_bola15").style.backgroundColor == "red"){
+       document.querySelector(".div_bola15").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(15), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(15);
+     document.querySelector(".div_bola15").style.backgroundColor = "red";
+    }
+    console.log(numSelecionados);
+  }
+  const mudaCor17 = (a) =>{
+    console.log(17);
+    if(document.querySelector(".div_bola17").style.backgroundColor == "red"){
+       document.querySelector(".div_bola17").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(17), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(17);
+     document.querySelector(".div_bola17").style.backgroundColor = "red";
+    }
+    console.log(numSelecionados);
+  }
+  const mudaCor19 = (a) =>{
+    console.log(19);
+    if(document.querySelector(".div_bola19").style.backgroundColor == "red"){
+       document.querySelector(".div_bola19").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(19), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(19);
+     document.querySelector(".div_bola19").style.backgroundColor = "red";
+    }
+    console.log(numSelecionados);
+  }
+  const mudaCor21 = (a) =>{
+    console.log(21);
+    if(document.querySelector(".div_bola21").style.backgroundColor == "red"){
+       document.querySelector(".div_bola21").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(21), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(21);
+     document.querySelector(".div_bola21").style.backgroundColor = "red";
+    }
+    console.log(numSelecionados);
+  }
+  const mudaCor23 = (a) =>{
+    console.log(23);
+    if(document.querySelector(".div_bola23").style.backgroundColor == "red"){
+       document.querySelector(".div_bola23").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(23), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(23);
+     document.querySelector(".div_bola23").style.backgroundColor = "red";
+    }
+    console.log(numSelecionados);
+  }
+  const mudaCor25 = (a) =>{
+    console.log(25);
+    if(document.querySelector(".div_bola25").style.backgroundColor == "red"){
+       document.querySelector(".div_bola25").style.backgroundColor = "blue";
+       numSelecionados.splice(numSelecionados.indexOf(25), 1); // remove o valor do vetor
+    }else{
+     numSelecionados.push(25);
+     document.querySelector(".div_bola25").style.backgroundColor = "red";
+    }
+    console.log(numSelecionados);
   }
   const history = useNavigate();
   const RoutePageResult = () =>{ 
-    history("/PageResult");}
+    if(numSelecionados.length >= 4){
+      history("/PageResult");
+    }else{
+      alert("Selecione pelo menos 4 números");
+    }
+    }
+
+  const LimparSelecao = () =>{ 
+    document.querySelector(".div_bola1").style.backgroundColor = "red"; mudaCor1();
+    document.querySelector(".div_bola3").style.backgroundColor = "red"; mudaCor3();
+    document.querySelector(".div_bola5").style.backgroundColor = "red"; mudaCor5();
+    document.querySelector(".div_bola7").style.backgroundColor = "red"; mudaCor7();
+    document.querySelector(".div_bola9").style.backgroundColor = "red"; mudaCor9();
+    document.querySelector(".div_bola11").style.backgroundColor = "red"; mudaCor11();
+    document.querySelector(".div_bola13").style.backgroundColor = "red"; mudaCor13();
+    document.querySelector(".div_bola15").style.backgroundColor = "red"; mudaCor15();
+    document.querySelector(".div_bola17").style.backgroundColor = "red"; mudaCor17();
+    document.querySelector(".div_bola19").style.backgroundColor = "red"; mudaCor19();
+    document.querySelector(".div_bola21").style.backgroundColor = "red"; mudaCor21();
+    document.querySelector(".div_bola23").style.backgroundColor = "red"; mudaCor23();
+    document.querySelector(".div_bola25").style.backgroundColor = "red"; mudaCor25();
+  }
+  
 
   return (
     <>
@@ -332,43 +407,43 @@ const MakeGame = () => {
                         <div className="div_bola1" onClick={mudaCor1}>
                           <span>01</span>
                         </div>
-                        <div className="div_bola2" onClick={mudaCor2}>
+                        <div className="div_bola3" onClick={mudaCor3}>
                           <span>03</span>
                         </div>
-                        <div className="div_bola3" onClick={mudaCor3}>
+                        <div className="div_bola5" onClick={mudaCor5}>
                           <span>05</span>
                         </div>
-                        <div className="div_bola4" onClick={mudaCor4}>
+                        <div className="div_bola7" onClick={mudaCor7}>
                           <span>07</span>
                         </div>
-                        <div className="div_bola5" onClick={mudaCor5}>
+                        <div className="div_bola9" onClick={mudaCor9}>
                           <span>09</span>
                         </div>
-                        <div className="div_bola6" onClick={mudaCor6}>
+                        <div className="div_bola11" onClick={mudaCor11}>
                           <span>11</span>
                         </div>
-                        <div className="div_bola7" onClick={mudaCor7}>
+                        <div className="div_bola13" onClick={mudaCor13}>
                           <span>13</span>
                         </div>
                       </div>
                       <br />
                       <div className="div_wrap_bolas">
-                        <div className="div_bola8" onClick={mudaCor8}>
+                        <div className="div_bola15" onClick={mudaCor15}>
                           <span>15</span>
                         </div>
-                        <div className="div_bola9" onClick={mudaCor9}>
+                        <div className="div_bola17" onClick={mudaCor17}>
                           <span>17</span>
                         </div>
-                        <div className="div_bola10" onClick={mudaCor10}>
+                        <div className="div_bola19" onClick={mudaCor19}>
                           <span>19</span>
                         </div>
-                        <div className="div_bola11" onClick={mudaCor11}>
+                        <div className="div_bola21" onClick={mudaCor21}>
                           <span>21</span>
                         </div>
-                        <div className="div_bola12" onClick={mudaCor12}>
+                        <div className="div_bola23" onClick={mudaCor23}>
                           <span>23</span>
                         </div>
-                        <div className="div_bola13" onClick={mudaCor13}>
+                        <div className="div_bola25" onClick={mudaCor25}>
                           <span>25</span>
                         </div>
                       </div>
@@ -380,7 +455,7 @@ const MakeGame = () => {
                           <button className="btn btn-success" style={{width:"100%"}} onClick={RoutePageResult}>Gerar apostas</button>
                         </div>
                         <div className="col-lg-6">
-                        <button className="btn btn btn-secondary" style={{width:"100%"}}>Limpar selecão</button>
+                        <button className="btn btn btn-secondary" style={{width:"100%"}} onClick={LimparSelecao}>Limpar selecão</button>
                         </div>
                       </div>
                     </div>
