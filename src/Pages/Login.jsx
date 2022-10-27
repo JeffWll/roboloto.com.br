@@ -10,12 +10,12 @@ import { Link } from "react-router-dom";
 
 const users = [
   {
-    username: 'admin100080',
-    password: '912345678'
+    username: 'admin1',
+    password: '12345678'
   },
   {
-    username:'admin100080',
-    password:'9012345678'
+    username:'admin2',
+    password:'012345678'
   }
 ];
 
