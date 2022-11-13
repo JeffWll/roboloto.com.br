@@ -66,7 +66,6 @@ const PageResult = () => {
           selecaoRoxa++; 
         }
       });
-      console.log("selecaoRoxa: " + selecaoRoxa);
     }
   }
   

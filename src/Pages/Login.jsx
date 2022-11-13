@@ -7,6 +7,28 @@ import Lock from "../Assets/icon_lock.svg";
 import { Link } from "react-router-dom";
 
 
+const sheetID = "1z3qKMIpJng82Krai2x2gWnUOGcxrgG8G8ROiARcCUiw";
+const base = `https://docs.google.com/spreadsheets/d/1z3qKMIpJng82Krai2x2gWnUOGcxrgG8G8ROiARcCUiw/gviz/tq?`;
+const sheetName = "users";
+const query = encodeURIComponent('Select *');
+const url = `${base}&sheet=${sheetName}&tq=${query}`;
+var Data = null;
+document.addEventListener('DOMContentLoaded', JSONProcessing);
+
+
+function JSONProcessing(){
+  //console.log('ready');
+  fetch(url)
+  .then(res => res.text())
+  .then(rep => {
+    const js0 = JSON.parse(rep.substring(47).slice(0, -2));
+    Data = JSON.parse(rep.substring(47).slice(0, -2));
+    console.log(js0);
+    js0.table.cols.forEach((heading) => {
+      //console.log(heading);
+    });
+  })
+}
 
 const users = [
   {
@@ -32,9 +54,8 @@ const Login = () => {
   const history = useNavigate();
 
   const handleSubmit = () => {
-    //e.preventDefault();
-    checkUser();
-    //console.log(checkUser());
+    ///checkUser();
+    checkUserAPI();
   }
 
   const routeChange = () =>{ 
@@ -50,10 +71,35 @@ const Login = () => {
     }else {
       console.log("Wrong password or username");
       alert("Senha Incorreta!");
+    }
+    console.log(usercheck);
+  }
+
+  const checkUserAPI = () => {
+
+    //Data.table.rows.forEach((row) => {
+      //console.log(row.c);
+      //console.log("EMAIL: " + row.c[1].v + "  EMAIL INPUTED: " + data.username); // email
+      //console.log("SENHA: " + row.c[3].v + "  PSW INPUTED: " + data.password); // senha
+      //var email = row.c[1].v.toString();
+      //var psw = row.c[3].v.toString();
+      //if(email === data.username && psw === data.password){
+       // console.log("LOGGEEEEEED!!!!!!!!!"); 
+      //}
+    //});
+
+    const usercheck = Data.table.rows.find(row => (row.c[1].v.toString() === data.username && row.c[3].v.toString() === data.password));
+    if(usercheck) {
+      console.log("Login successful");
+      
+      routeChange();
+  
+    }else {
+      console.log("Wrong password or username");
+      alert("Senha Incorreta!");
       console.log(data.username);
       console.log(data.password);
     }
-    // console.log(uname);
     console.log(usercheck);
   }
 
@@ -67,7 +113,6 @@ const Login = () => {
     console.log("Valor Psw Inputado");
     //console.log(data.password);
   }
-  
 
   return (
    <>
