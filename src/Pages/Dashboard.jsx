@@ -17,9 +17,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 import { Autoplay } from "swiper";
+import {objCartelaJogo0} from './PageResult';
 
 
 const Dashboard = () => {
+
+  //const x = objCartelaJogo0();
+  //document.write("X: " + x);
+
 
   const history = useNavigate();
   const RouteMakeGame = () =>{ 
@@ -83,12 +88,12 @@ const Dashboard = () => {
       }
     }
   
-    const title = React.createElement('h1', {}, 'My First React Code');
+  const title = React.createElement('h1', {}, 'My First React Code');
     
   const CartelaJogo = [
     {
-      title: 'Titulou',
-      description: 'TitulouTitulouTitulouTitulouTitulouTitulou',
+      title: 'text',
+      description: 'text',
     }
   ];
   
@@ -605,7 +610,7 @@ const Dashboard = () => {
                 <hr />
                 <div className="row">
                   <div className="col">
-                    <div className='App'>{objCartelaJogo1}</div> 
+                    <div className='App'>{objCartelaJogo0}</div> 
                   </div>
                   <div className="col">
                     <div className='App'>{objCartelaJogo2}</div> 
