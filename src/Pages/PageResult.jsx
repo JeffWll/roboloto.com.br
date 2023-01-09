@@ -27,7 +27,7 @@ function RandomizarSelecao() {
   TipoSelecaoDIVbckgrdColor = [];TipoSelecaoDIVbckgrdColor = ['texto'];
   TipoSelecaoH2bckgrdColor = [];TipoSelecaoH2bckgrdColor = ['texto'];
 
-  for(let i = 0; i <= total; i++)
+  for(let i = 0; i <= total - 1; i++)
   {      
       var selecao = getRandomInt(1, 4);
       
@@ -53,7 +53,7 @@ function RandomizarSelecao() {
 
 function VerificarSelecao(){
   var selecaoRoxa = 0;
-  while(selecaoRoxa < 15){
+  while(selecaoRoxa != 15){
     selecaoRoxa = 0;
     RandomizarSelecao();
     

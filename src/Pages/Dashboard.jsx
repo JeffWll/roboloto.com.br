@@ -24,8 +24,9 @@ const Dashboard = () => {
 
   //const x = objCartelaJogo0();
   //document.write("X: " + x);
-
-
+  
+  //console.log('selecaoRoxaCount');
+  
   const history = useNavigate();
   const RouteMakeGame = () =>{ 
     history("/MakeGame");}
@@ -50,7 +51,7 @@ const Dashboard = () => {
       TipoSelecaoDIVbckgrdColor = [];TipoSelecaoDIVbckgrdColor = ['texto'];
       TipoSelecaoH2bckgrdColor = [];TipoSelecaoH2bckgrdColor = ['texto'];
   
-      for(let i = 0; i <= total; i++)
+      for(let i = 0; i <= total - 1; i++)
       {      
           var selecao = getRandomInt(1, 4);
           
@@ -75,17 +76,23 @@ const Dashboard = () => {
     }
   
     function VerificarSelecao(){
-      var selecaoRoxa = 0;
-      while(selecaoRoxa < 15){
-        selecaoRoxa = 0;
-        RandomizarSelecao();
+      var selecaoRoxaCount = 0;
+      while(selecaoRoxaCount != 15 ){
+        selecaoRoxaCount = 0;
+        RandomizarSelecao();        
         
         TipoSelecaoDIVbckgrdColor.forEach(element => {
           if(element == 'ball_nRR_Color'){
-            selecaoRoxa++; 
+            selecaoRoxaCount++; 
+            //console.log('selecaoRoxaCount IF: ' + selecaoRoxaCount);
           }
         }); 
       }
+      //console.log('selecaoRoxaCount IF: ' + selecaoRoxaCount);
+      //for(let i = 0; i < TipoSelecaoDIVbckgrdColor.length; i++){
+       // console.log("Elemento : " + i + " " + TipoSelecaoDIVbckgrdColor[i]);
+      //} 
+      
     }
   
   const title = React.createElement('h1', {}, 'My First React Code');
@@ -98,6 +105,7 @@ const Dashboard = () => {
   ];
   
   const objCartelaJogo1 = CartelaJogo.map((item) => {
+    console.log('PALPITE UM------------------------------------------------------------ ');
     VerificarSelecao();
   
     return(
@@ -199,6 +207,7 @@ const Dashboard = () => {
   });
   
   const objCartelaJogo2 = CartelaJogo.map((item) => {
+    console.log('PALPITE DOIS------------------------------------------------------------ ');
     VerificarSelecao();
   
     return(
@@ -300,113 +309,13 @@ const Dashboard = () => {
   });
   
   const objCartelaJogo3 = CartelaJogo.map((item) => {
+    console.log('PALPITE TRES------------------------------------------------------------ ');
     VerificarSelecao();
   
     return(
       <>
       <div className="div_wrap_result">
                         <h5 className="tt_cartela">Palpite 3</h5>
-                        <div className="linha_bolas">
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[1]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[1]}>01</h2>
-                          </div>                        
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[2]}>
-                          <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[2]}>02</h2>
-                          </div>
-  
-  
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[3]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[3]}>03</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[4]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[4]}>04</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[5]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[5]}>05</h2>
-                          </div>
-                        </div>
-                        <div className="linha_bolas">
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[6]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[6]}>06</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[7]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[7]}>07</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[8]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[8]}>08</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[9]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[9]}>09</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[10]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[10]}>10</h2>
-                          </div>
-                        </div>
-                        <div className="linha_bolas">
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[11]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[11]}>11</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[12]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[12]}>12</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[13]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[13]}>13</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[14]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[14]}>14</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[15]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[15]}>15</h2>
-                          </div>
-                        </div>
-                        <div className="linha_bolas">
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[16]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[16]}>16</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[17]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[17]}>17</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[18]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[18]}>18</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[19]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[19]}>19</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[20]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[20]}>20</h2>
-                          </div>
-                        </div>
-                        <div className="linha_bolas">
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[21]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[21]}>21</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[22]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[22]}>22</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[23]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[23]}>23</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[24]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[24]}>24</h2>
-                          </div>
-                          <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[25]}>
-                            <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[25]}>25</h2>
-                          </div>
-                        </div>
-  
-                        </div>
-  
-      </>
-     )
-  });
-  
-  const objCartelaJogo4 = CartelaJogo.map((item) => {
-    VerificarSelecao();
-  
-    return(
-      <>
-      <div className="div_wrap_result">
-                        <h5 className="tt_cartela">Palpite 4</h5>
                         <div className="linha_bolas">
                           <div className={'wrapper searchDiv ' + TipoSelecaoDIVbckgrdColor[1]}>
                             <h2 className={'wrapper searchDiv ' + TipoSelecaoH2bckgrdColor[1]}>01</h2>
@@ -610,7 +519,7 @@ const Dashboard = () => {
                 <hr />
                 <div className="row">
                   <div className="col">
-                    <div className='App'>{objCartelaJogo0}</div> 
+                    <div className='App'>{objCartelaJogo1}</div> 
                   </div>
                   <div className="col">
                     <div className='App'>{objCartelaJogo2}</div> 
